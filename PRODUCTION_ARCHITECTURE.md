@@ -98,7 +98,7 @@ CREATE TABLE market_variance (
 
 ## AI Engine Integration Flow (Teachable Machine + Gemini)
 1. **Ingest**: User opens `CameraView.tsx`. `navigator.mediaDevices` streams feed.
-2. **Edge Inference**: Frame captured, resized to 224x224. Passed to `@tensorflow/tfjs` running the exported Google Teachable Machine model (`https://teachablemachine.withgoogle.com/models/jOWvy-EIT/`).
+2. **Edge Inference**: Frame captured, resized to 224x224. Passed to `@tensorflow/tfjs` runfning the exported Google Teachable Machine model (`https://teachablemachine.withgoogle.com/models/jOWvy-EIT/`).
 3. **Classification**: Model outputs logits mapped to M1-M9.
 4. **Cloud Processing**: If confidence > 85%, image and grade sent to `/api/verify`.
 5. **Generative Twin**: Gemini API receives image data and structural grade, outputs a 3-word `twin_name` and abstract `twin_concept`.
