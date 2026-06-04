@@ -5,7 +5,7 @@ import { cn } from '../lib/utils';
 import { Activity, ShieldCheck, Database, Scan, Hexagon, ArrowRight, Camera, Upload, X, MapPin, Scale, Code, ScanLine } from 'lucide-react';
 import * as tmImage from '@teachablemachine/image';
 
-const URL1 = "https://teachablemachine.withgoogle.com/models/wOj4KodNk/";
+const URL1 = "https://teachablemachine.withgoogle.com/models/h5R6Fqsx3/";
 const URL2 = "https://teachablemachine.withgoogle.com/models/7RuAcI1uL/";
 
 interface ScanData {
