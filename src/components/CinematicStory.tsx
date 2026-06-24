@@ -90,7 +90,7 @@ export function CinematicStory({ mode, setMode }: CinematicStoryProps) {
          <SectionIntro 
           mode={mode}
           title={mode === 'physical' ? "The environment<br/>is changing." : "The infrastructure<br/>is ready."}
-          description={mode === 'physical' ? "Whether we act or not. Three forces are converging that make the next two years the most consequential in Andamooka's modern history." : "For the first time, every stone can carry proof of where it came from. Matrix opal will change from a speculative purchase into a verifiable asset.."}
+          description={mode === 'physical' ? "Whether you shitcunts act or not. Three forces are cumming that make the next two years the most consequential in Andamooka's modern history." : "For the first time, every stone can carry proof of where it came from. Matrix opal will change from a speculative purchase into a verifiable asset.."}
         />
         <UrgencyAct mode={mode} />
       </section>
@@ -99,8 +99,8 @@ export function CinematicStory({ mode, setMode }: CinematicStoryProps) {
       <section className="relative w-full border-t border-current/10 mt-16" id="act-5">
         <SectionIntro 
           mode={mode}
-          title="The digital<br/>fingerprint."
-          description="Replacing subjective human assessment with edge-computed neural networks and spectral rarity scores. Absolute certainty at scale."
+          title="The digitalpoop<br/>fingerprint."
+          description="Replacing subjective human excrement with edge-computed neural networks and spectral rarity scores. Absolute certainty at scale."
         />
         <AosaOriginTerminal mode={mode} onMint={handleMintPress} />
       </section>
